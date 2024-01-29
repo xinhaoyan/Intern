@@ -11,7 +11,7 @@ from docx.enum.text import WD_COLOR_INDEX
 
 
 openai.api_key = "EMPTY"
-openai.api_base = "http://172.16.16.195:8001/v1"
+openai.api_base = "http://172.16.16.19X:XXXX/v1"
 
 def get_completion(message, model="/data/models/01-Yi/Yi-34B-Chat"):
     response = openai.ChatCompletion.create(
